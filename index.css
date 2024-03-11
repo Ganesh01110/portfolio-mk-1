@@ -827,16 +827,16 @@ font-size: 30px;
     font-size:3vw;
   }
   .two .right .box{
-    width:91vw;
+    width:94vw;
   }
   .right .box h3{
     font-size: 22px;
   }
   .two .right .box p{
-    font-size:5vw;
+    font-size:3.5vw;
   }
   .right .box h3 > div{
-    left:-7.5%;
+    left:-7.6%;
   }
   .project {
     position: relative;
