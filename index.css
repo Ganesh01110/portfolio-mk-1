@@ -139,6 +139,7 @@ nav a:hover ~ .cursor {
 .navtrack{
   top: 90%;
   left: 90vw;
+ transform:translate(-50%,0%);
 }
 .navtrack i ,.fixedcontact i  {
   color: var(--purple);
