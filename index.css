@@ -829,6 +829,9 @@ font-size: 30px;
   .right .box h3{
     font-size: 22px;
   }
+  .two .right .box p{
+    font-size:5vw;
+  }
   .right .box h3 > div{
     left:-7.5%;
   }
