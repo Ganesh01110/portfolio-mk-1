@@ -307,7 +307,7 @@ text-shadow: 0 0 10px var(--purple), 0 0 20px var(--purple2),
   top: 40%;
 }
 .two .left p {
-  font-size: 20px;
+  font-size: 1.6vw;
   line-height: 0.95;
   margin: 3vh 0;
   color: var(--purple);
@@ -746,7 +746,7 @@ footer span {
   .two .left,
   .two .right {
     width: 100%;
-    height: 60vh;
+    height: 80vh;
   }
   .two .boxleft {
     transform:translate(-50%,-50%) rotate(0deg);
@@ -810,19 +810,20 @@ footer span {
     font-size: 25px;
   }
   .one .left h1{
-    font-size: 40px;
+    font-size: 38px;
   }
   .one .left h4 {
 font-size: 30px;
   }
   .one .left p {
-    width: 80%;
+    width: 100%;
   }
   .one .left button{
     font-size: 18px;
   }
   .two .left p {
     top:75%;
+    font-size:3vw;
   }
   .right .box h3{
     font-size: 22px;
