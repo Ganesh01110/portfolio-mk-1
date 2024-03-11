@@ -826,6 +826,9 @@ font-size: 30px;
     top:75%;
     font-size:3vw;
   }
+  .two .right .box{
+    width:91vw;
+  }
   .right .box h3{
     font-size: 22px;
   }
