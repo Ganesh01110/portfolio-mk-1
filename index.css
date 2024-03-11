@@ -797,6 +797,7 @@ footer span {
     flex-direction: column;
     width: 40vw;
     height: 100vh;
+     margin:auto;
   }
   .p-box {
   grid-template-columns:  repeat(auto-fill, minmax(calc(100% - 1.5rem), 1fr));
