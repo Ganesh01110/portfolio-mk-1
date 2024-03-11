@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my-portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      
+      <!-- navbar start -->
+       <div id="navbar">
+        <div class="user"><div class="userimg"></div> <h2>Ganesh sahu</h2></div>
+       
+        
+           <!-- <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="cursor"></div>
+          </ul>  -->
+          <nav class="navlist">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contact</a>
+            <div class="cursor"></div>
+        </nav>
+       
+       
+        <i class="ri-menu-line"></i>
+        
+      </div>
+      <div class="menumobile">
+        <a><i class="ri-arrow-right-line"></i></a>
+        <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">projects</a>
+          <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navtrack" ><a href="#home"><i class="ri-arrow-up-fill"></i></a>
+      </div> 
+       
+     <div class="fixedcontact">
+      <i class="ri-phone-line"></i>
+     </div>
+
+     <div class="contactbox">
+        <a id="phoneLink"><i class="ri-phone-line"></i></a>
+        <a  id="emailLink"><i class="ri-mail-line"></i></a>
+        <a href="https://github.com/Ganesh01110"><i class="ri-github-line"></i></a>
+     </div>
+
+      <!-- navbar end -->
+
+      <!-- home section starts -->
+      <section id="home">
+        <div class="heading">
+          <h1>home</h1>
+          <span>home</span>
+        </div>
+        <div class="content one">
+          <div class="left">
+            <h3>Hii,welcome to my world..</h3>
+            <h1>I'm <span>Ganesh sahu</span> ,</h1>
+            <h4>a  <span> WEB--DEVELOPER. </span></h4>
+            <p>
+              Aspiring MCA fresher with a strong foundation in software engineering, eager to contribute technical expertise and collaborate on impactful projects within the software development sphere.
+            </p>
+            <button ><a href="src/1-frontend-resume.pdf"  download="GaneshSahuresume">
+              download my resume <i class="ri-arrow-down-line"></i></a>
+            </button>
+          </div>
+          <div class="right"></div>
+        </div>
+      </section>
+
+      <!-- home section endss -->
+
+      <!-- about section start -->
+      <section id="about">
+        <div class="heading">
+          <h1>about</h1>
+          <span>about</span>
+        </div>
+        <div class="content two">
+          <div class="left">
+            <div class="boxleft">
+              <div id="spiral" class="spiral-container"></div>
+              <div id="spiral2" class="spiral-container"></div>
+            </div>
+            <p>"As an MCA student with a passion for web development, I leverage my expertise in MERN stack, SQL, and Spring technologies to craft innovative and impactful solutions. With a creative approach to problem-solving and a keen eye for detail, I'm committed to delivering exceptional results that exceed expectations, making me an ideal candidate to drive success in your team."
+            </p>
+          </div>
+          <div class="right">
+            <div class="box">
+              <h3>
+                <div class="dot"></div>
+                About
+              </h3>
+              <!-- <h2>MCA:<span>2024</span></h2> -->
+              <p>
+                Proficient in Java programming encompassing Core Java fundamentals and adept in leveraging Spring Framework for developing robust and scalable applications. <br>
+
+                Skilled in creating websites using HTML, CSS, JavaScript , typescript along with React JS , next.js library.
+              </p>
+            </div>
+            <div class="box">
+              <h3>
+                <div class="dot"></div>
+                Education
+              </h3>
+              <h2>MCA:<span>2024</span></h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
+                at quia illum aliquam iste nisi accusamus aspernatur
+                reprehenderit nesciunt nihil!
+              </p>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      <!-- about section start -->
+
+      <!-- project section start -->
+      <section id="projects">
+        <div class="heading">
+          <h1>projects</h1>
+          <span>projects</span>
+        </div>
+        <div class="content project">
+          <div class="ticker-wrap leftmdiv">
+            <div class="ticker" id="onetick"></div>
+          </div>
+          <div class="ticker-wrap rightmdiv">
+            <div class="ticker" id="twotick"></div>
+          </div>
+        </div>
+        <div class="mvdvimg"></div>
+      </section>
+      <div class="p-box" id="projectbox">
+        <!-- <div class="card">
+          <div class="p-img"><img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" /></div>
+          <h1> </h1>
+          <p></p>
+          <button>visit<i class="ri-arrow-right-up-line"></i></button>
+        </div> -->
+      </div>
+
+   
+      <!-- project section end -->
+
+      <!-- contact section start -->
+      <section id="contact">
+        <div class="heading">
+          <h1>contact</h1>
+          <span>contact</span>
+        </div>
+        <div class="content contact">
+          <form action="#" id="">
+            <div class="input-box">
+                <input type="text" required placeholder="Full Name">
+                <input type="email" required placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="tel" required placeholder="Mobile Number">
+                <input type="email" required placeholder="Subject For">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+            <button type="submit" value="Send Message" class="btn">submit</button>
+        </form>
+        </div>
+      </section>
+
+      <!--footer starts  -->
+      <footer>
+        <div class="text">
+          <p>Copyright @ 2024 by <br><span>Ganesh sahu</span></p>
+          <h3>ganeshsahu0108@gmail.com</h3>
+          <h3>+91-8658040407</h3>
+        </div>
+        <a href="#"></a>
+      </footer>
+      <!--footer ends  -->
+    </div>
+
+     
+    
+  <script src="index.js"></script>
+</html>
